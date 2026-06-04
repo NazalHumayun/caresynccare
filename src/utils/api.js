@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://caresync-care-production.up.railway.app/api",
+  baseURL: "https://caresync-care-nine.vercel.app/api",
   timeout: 10000,
 });
 
